@@ -2,15 +2,20 @@
 This repository is about learning HTML , CSS and JAVASCRIPT 
 In this repo we will learn HTML , CSS and JAVASCRIPT from basis to advanced in very easy and good manner.
 
+📚 Learning Web Development — HTML Basics
+
+Welcome to my Web Development Learning Repository!
+This project contains my practice files as I learn HTML, and later CSS & JavaScript.
+
 📖 Chapter 1 — Introduction to HTML
 
-This file covers the foundation of HTML structure and explains how webpages are built.
+This chapter explains the basic structure of a webpage and introduces the most essential HTML tags.
 
-🔍 Topics Covered
+What’s covered in this chapter
 
-What <!DOCTYPE html> means
+Meaning of <!DOCTYPE html>
 
-Basic page structure
+Basic structure
 
 <html>
 
@@ -20,44 +25,36 @@ Basic page structure
 
 <body>
 
-Heading tags (h1 to h6)
+Headings (h1 to h6)
 
-Difference between:
-
-Closed tags (like <p>…</p>)
+Closed tags (like <p>)
 
 Self-closing tags (like <br>)
 
-Horizontal separator using <hr>
+Horizontal rule (<hr>)
 
-🎯 Purpose
-
-This chapter helps you understand how an HTML file is organized and introduces some of the most commonly used tags.
+This chapter helps build a strong foundation of how an HTML document is created.
 
 📖 Chapter 2 — Commonly Used HTML Tags
 
-This chapter explores practical formatting tags that help control the appearance and meaning of text.
+This chapter focuses on useful formatting tags.
 
-🔍 Topics Covered
+Topics covered
 
 Importance of the <pre> tag for preserving spaces and formatting
 
-Table of useful inline tags such as:
+Common inline tags:
 
-Line break (br)
-
-Bold vs Strong (<b> and <strong>)
-
-Italic vs Emphasis (<i> and <em>)
-
-Underline and Inserted text (<u>, <ins>)
-
-Big/Small text
-
-Superscript and Subscript (<sup>, <sub>)
-
-Highlighting text (<mark>)
-
-🎯 Purpose
-
-This chapter gives a quick reference to commonly used text-formatting tags, helping beginners understand both visual styling and semantic meaning.
+No.	Tag Name	Syntax	Usage
+1️⃣	Line Break	<br>	Inserts a line break.
+2️⃣	Bold	<b>text</b>	Makes text bold (visual).
+3️⃣	Strong	<strong>text</strong>	Important text (semantic bold).
+4️⃣	Italic	<i>text</i>	Makes text italic (visual style).
+5️⃣	Emphasis	<em>text</em>	Emphasizes text (semantic italic).
+6️⃣	Underline	<u>text</u>	Underlines text.
+7️⃣	Inserted Text	<ins>text</ins>	Shows inserted/underlined text.
+8️⃣	Big Text	<big>text</big>	Slightly increases text size (deprecated).
+9️⃣	Small Text	<small>text</small>	Reduces text size.
+🔟	Superscript	<sup>text</sup>	Text above baseline (e.g., X<sup>2</sup>).
+1️⃣1️⃣	Subscript	<sub>text</sub>	Text below baseline (e.g., H<sub>2</sub>O).
+1️⃣2️⃣	Highlight	<mark>text</mark>	Highlights the text.
