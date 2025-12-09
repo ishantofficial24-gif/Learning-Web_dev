@@ -1,4 +1,5 @@
 # Learning-Web_dev
+================================================================ HTML SECTION ==================================================================
 This repository is about learning HTML , CSS and JAVASCRIPT 
 In this repo we will learn HTML , CSS and JAVASCRIPT from basis to advanced in very easy and good manner.
 
@@ -58,3 +59,38 @@ No.	Tag Name	Syntax	Usage
 🔟	Superscript	<sup>text</sup>	Text above baseline (e.g., X<sup>2</sup>).
 1️⃣1️⃣	Subscript	<sub>text</sub>	Text below baseline (e.g., H<sub>2</sub>O).
 1️⃣2️⃣	Highlight	<mark>text</mark>	Highlights the text.
+
+
+========================================================== JAVASCRIPT SECTION ==========================================================
+📘 JavaScript Overview
+
+JavaScript (JS) is a high-level, dynamic, and widely used programming language that makes web pages interactive. It works together with HTML and CSS and runs directly inside the browser as well as on servers using Node.js.
+
+:::: Chapter 1 — Basics ::::
+
+In this chapter, we learn the fundamental concepts of JavaScript:
+
+* Console Output
+    console.log ();
+The console is used to display messages, values, and results for debugging and learning.
+It helps us understand how our code works internally.
+
+* Variables (var, let, const)
+Variables are used to store values.
+let and const are modern and preferred.
+var is older and allows redeclaration.
+const is used for values that must not change.
+
+* Datatypes
+JavaScript supports multiple datatypes:
+Number → integers and decimals
+String → text written in quotes
+Boolean → true or false
+Null → represents an empty or unknown value
+Undefined → a variable declared but not assigned
+JavaScript does not have a separate character datatype; single characters are stored as strings.
+
+* Reassigning Values
+JavaScript allows changing the value and even the datatype of a variable.
+However, variables declared with let cannot be redeclared.
+Variables declared with var can be redeclared.
