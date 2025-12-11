@@ -131,3 +131,34 @@ else if
 
 They execute different blocks depending on whether conditions are true or false.
 While writing conditions, be careful when choosing between == and === to avoid unexpected results.
+
+
+📖:::: Chapter 3 — ARRAYS::::
+
+This chapter introduces arrays in JavaScript, how they work, and the basic operations used to modify them.
+
+🔹 What Are Arrays?
+Arrays in JavaScript are a special type of object.
+They can store multiple values of different datatypes (numbers, strings, booleans, etc.).
+JavaScript arrays are dynamic, meaning their size can grow or shrink.
+Entire arrays can be printed directly using console.log().
+
+🔹 Common Array Operations
+-Push
+Adds a new element to the end of an array.
+
+-Pop
+Removes the last element from an array.
+
+-Unshift
+Inserts an element at the beginning of the array.
+
+-Shift
+Removes the first element of an array.
+
+🔹 Reassigning Arrays
+Arrays declared with let can be reassigned to another datatype (e.g., number, string), even though it's unusual.
+
+🔹 Using const With Arrays
+Arrays declared with const cannot be reassigned,
+but their contents can still be changed using operations like push, pop, shift, etc.
