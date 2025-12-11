@@ -52,7 +52,7 @@ console.log ("This is Ishant Sharma!");
 
 
 //---------------------------------------------------------Redefining/revaluing-----------------------------------------------------------
-// In javascript we can change the datatype of the  variable
+//NOTE: In javascript we can change the datatype of the  variable
     let a = 23;
     console.log (a,typeof(a));
     a = "Minecraft";

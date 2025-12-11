@@ -61,7 +61,7 @@ No.	Tag Name	Syntax	Usage
 1️⃣2️⃣	Highlight	<mark>text</mark>	Highlights the text.
 
 
-========================================================== JAVASCRIPT SECTION ==========================================================
+=================================================== JAVASCRIPT SECTION===================================================
 📘 JavaScript Overview
 
 JavaScript (JS) is a high-level, dynamic, and widely used programming language that makes web pages interactive. It works together with HTML and CSS and runs directly inside the browser as well as on servers using Node.js.
@@ -94,3 +94,40 @@ JavaScript does not have a separate character datatype; single characters are st
 JavaScript allows changing the value and even the datatype of a variable.
 However, variables declared with let cannot be redeclared.
 Variables declared with var can be redeclared.
+
+
+
+
+📖:::: Chapter 2 — Operators & Conditionals::::
+
+This chapter explains how JavaScript performs calculations, compares values, and makes decisions using conditional statements.
+➤ Arithmetic Operators
+JavaScript supports the basic mathematical operators used for calculations:
+Addition, subtraction, multiplication, division
+Modulus (remainder)
+JavaScript always returns decimal results in division when needed because both integers and floats belong to the same datatype: number.
+
+➤ Exponential Operator
+JavaScript uses the exponential operator to calculate powers (a raised to the power b).
+This provides a simple way to perform exponential calculations.
+➤ Comparison Operators
+Comparison operators work differently in JavaScript:
+✔ Loose Equality (==)
+Compares values only
+Ignores datatype
+Example: the number 23 and the string "23" are considered equal
+
+✔ Strict Equality (===)
+Compares both value and datatype
+More predictable and recommended for most comparisons
+The number 23 and the string "23" are not equal here
+
+➤ Conditionals
+
+JavaScript supports conditional statements that allow decision-making in the code:
+if
+else
+else if
+
+They execute different blocks depending on whether conditions are true or false.
+While writing conditions, be careful when choosing between == and === to avoid unexpected results.
