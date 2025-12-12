@@ -66,7 +66,7 @@ No.	Tag Name	Syntax	Usage
 
 JavaScript (JS) is a high-level, dynamic, and widely used programming language that makes web pages interactive. It works together with HTML and CSS and runs directly inside the browser as well as on servers using Node.js.
 
-:::: Chapter 1 — Basics ::::
+📖:::: Chapter 1 — Basics ::::
 
 In this chapter, we learn the fundamental concepts of JavaScript:
 
@@ -131,6 +131,7 @@ else if
 
 They execute different blocks depending on whether conditions are true or false.
 While writing conditions, be careful when choosing between == and === to avoid unexpected results.
+Remember some statement that are always false  --> 0,false,null,NaN,undefined.
 
 
 📖:::: Chapter 3 — ARRAYS::::
@@ -162,3 +163,25 @@ Arrays declared with let can be reassigned to another datatype (e.g., number, st
 🔹 Using const With Arrays
 Arrays declared with const cannot be reassigned,
 but their contents can still be changed using operations like push, pop, shift, etc.
+
+📖 ::::Chapter 4 — Loops in JavaScript::::
+
+This chapter explains different types of loops used in JavaScript and how they help in repeating tasks efficiently.
+
+🔹 Standard Loops
+JavaScript supports the usual loops found in most programming languages:
+while
+for
+do–while
+These loops work the same as in other languages and are used when you need full control over conditions and iterations.
+
+🔹 for…of Loop
+The for…of loop is used to iterate over the values of an array.
+It creates a copy of each element, so modifying the loop variable does not change the original array.
+Useful for reading array values one by one.
+
+🔹 forEach Loop
+The forEach() method allows more detailed iteration:
+It provides element, index, and even the entire array during each iteration.
+Commonly used when processing each element without needing to break or return.
+It does not create a copy — but you typically should not modify the array inside it.

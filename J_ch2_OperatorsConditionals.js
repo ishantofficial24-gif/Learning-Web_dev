@@ -32,3 +32,5 @@ let b = 3;
 // conditionals like  "if else"   and  "if ,else if , else if , ....................., else"  work same
 // NOTE : Aware about the '==' and '===' while doing if else.
 
+// Remember some false condition -> 0,null,NaN,undefined.
+
