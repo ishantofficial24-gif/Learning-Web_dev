@@ -185,3 +185,42 @@ The forEach() method allows more detailed iteration:
 It provides element, index, and even the entire array during each iteration.
 Commonly used when processing each element without needing to break or return.
 It does not create a copy — but you typically should not modify the array inside it.
+
+
+📖 :::Chapter 5 — Strings in JavaScript:::
+
+Strings in JavaScript work very similarly to Java.
+A string is a sequence of characters, and each character can be accessed using its index (like an array).
+
+🔹 Accessing Characters
+You can access any character of a string using its index, starting from 0 as in c++.
+
+🔹 Length of a String
+The length property returns the total number of characters in the string, including spaces.
+
+🔹 Uppercase & Lowercase
+toUpperCase() → converts the entire string to uppercase
+toLowerCase() → converts the entire string to lowercase
+These methods do not modify the original string, they return a new one.
+
+🔹 Trim
+trim() removes all leading and trailing spaces from a string.
+(Spaces in the middle are not affected.)
+
+🔹 Finding Index of Characters
+indexOf() → returns the first occurrence of a character
+lastIndexOf() → returns the last occurrence of a character
+If the character is not found, both return -1.
+
+🔹 Character at a Given Index
+charAt() returns the character at the specified index.
+
+🔹 Slice (Substring)
+slice(start)
+Returns the substring from the given index to the end.
+slice(start, end)
+Returns characters from index start up to end - 1.
+
+🔹 Split
+split(separator) breaks a string into an array based on the separator provided.
+For example, splitting on a space will divide the string into words.
