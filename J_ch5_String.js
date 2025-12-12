@@ -52,3 +52,10 @@
     arr = ["Ishant","Sharma"];     // This is what stored in the str
     console.log(str);
     console.log(arr);
+
+//ex
+    let stringgg = "the*biggest*is*the*good bad*bit*the*of the**erase";
+    str=stringgg.split('*')
+    for (let ele of str) {
+        console.log(ele);
+    }
