@@ -224,3 +224,36 @@ Returns characters from index start up to end - 1.
 🔹 Split
 split(separator) breaks a string into an array based on the separator provided.
 For example, splitting on a space will divide the string into words.
+
+
+📖 :::Chapter 6 — Template Literals in JavaScript:::
+
+Template literals provide a modern and flexible way to create and print strings in JavaScript. They make string formatting easier and more readable.
+
+🔹 Traditional String Printing
+Before template literals, strings were printed using:
+Comma-separated values
+String concatenation using the + operator
+These methods work but become difficult to manage with complex strings.
+
+🔹 Template Literals (Backticks)
+Template literals use backticks ( ) instead of quotes.
+Advantages:
+Allows variable interpolation using ${}
+Makes strings more readable and cleaner
+Widely used in modern JavaScript
+
+🔹 Embedding Variables
+Using ${} inside backticks, variables and expressions can be directly inserted into strings without concatenation.
+
+🔹 Handling Quotes in Strings
+Template literals make it easy to include:
+Double quotes (")
+Single quotes (')
+Backticks (`)
+This reduces the need for escape characters (\) and improves readability.
+
+🔹 Why Use Template Literals?
+Cleaner syntax
+Less error-prone
+Ideal for dynamic strings and messages
