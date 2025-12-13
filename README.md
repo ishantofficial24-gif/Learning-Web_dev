@@ -286,3 +286,46 @@ The for…in loop is used to iterate over keys of an object.
 Each key can be used to access its corresponding value.
 Syntax must use object[key] (not object.key).
 This loop is especially useful when working with all properties of an object.
+
+
+📖 :::Chapter 9 — Functions & Math Methods in JavaScript:::
+
+This chapter explains how functions work in JavaScript and introduces commonly used built-in mathematical operations.
+
+🔹 Functions in JavaScript
+Functions work similarly to other programming languages.
+JavaScript does not require datatype declarations for parameters.
+There is no need to specify a return type.
+Functions are created using the function keyword and can return values.
+Functions help in writing reusable and organized code.
+
+🔹 Built-in Math Object
+JavaScript provides a powerful Math object that contains many useful mathematical methods.
+
+🔹 Absolute Value
+Returns the absolute (positive) value of a number.
+Useful for removing negative signs.
+
+🔹 Maximum & Minimum
+Finds the largest value among given numbers.
+Finds the smallest value among given numbers.
+Unlike some languages, JavaScript allows multiple values in these methods.
+
+🔹 Power, Square Root & Cube Root
+Calculates power (exponentiation).
+Finds square roots and cube roots of numbers.
+
+🔹 Logarithmic Functions
+Natural logarithm (base e)
+Base 10 logarithm
+Base 2 logarithm
+These are useful in mathematical and scientific calculations.
+
+🔹 Floor & Ceiling
+Floor → rounds down to the nearest integer.
+Ceiling → rounds up to the nearest integer.
+
+🔹 Random Numbers
+Generates a random number between 0 and 1.
+Can be modified to generate random integers within a specific range.
+Random numbers are commonly used in games, simulations, and applications.
