@@ -237,7 +237,7 @@ String concatenation using the + operator
 These methods work but become difficult to manage with complex strings.
 
 🔹 Template Literals (Backticks)
-Template literals use backticks ( ) instead of quotes.
+Template literals use backticks `` instead of quotes.
 Advantages:
 Allows variable interpolation using ${}
 Makes strings more readable and cleaner
@@ -257,3 +257,32 @@ This reduces the need for escape characters (\) and improves readability.
 Cleaner syntax
 Less error-prone
 Ideal for dynamic strings and messages
+
+
+📖 :::Chapter 7 — Objects in JavaScript:::
+
+Objects in JavaScript are used to store multiple related values together.
+They work on a key–value pair system, where each key represents a property and each value represents its data.
+
+🔹 What Is an Object?
+An object is a collection of variables grouped together.
+Each property has a key and an associated value.
+Object values can be of any datatype (string, number, boolean, etc.).
+Keys that contain spaces must be written using quotes.
+
+🔹 Accessing Object Properties
+JavaScript provides two ways to access object properties:
+✔ Dot Notation
+Used when the key does not contain spaces.
+Simple and commonly used.
+
+✔ Bracket Notation
+Used when keys contain spaces.
+Also works for keys without spaces.
+More flexible than dot notation.
+
+🔹 Iterating Over Objects — for…in Loop
+The for…in loop is used to iterate over keys of an object.
+Each key can be used to access its corresponding value.
+Syntax must use object[key] (not object.key).
+This loop is especially useful when working with all properties of an object.
