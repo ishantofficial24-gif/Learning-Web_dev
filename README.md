@@ -362,3 +362,34 @@ Parentheses are used even when no parameters are required.
 A callback function is a function passed as an argument to another function.
 It allows one function to be executed inside another function.
 Callbacks are fundamental to asynchronous programming in JavaScript.
+
+
+📖 :::Chapter 10 — setTimeout & Callback Functions:::
+
+This chapter explains how JavaScript handles delayed execution using the setTimeout() function and reinforces the concept of callback functions.
+
+🔹 What is setTimeout?
+setTimeout() is a built-in JavaScript function.
+It executes a function after a specified delay.
+The delay time is given in milliseconds.
+It does not block the program; the rest of the code continues running.
+
+🔹 Callback Function in setTimeout
+The function passed to setTimeout() is a callback function.
+JavaScript expects a function reference, not the result of a function call.
+This is why we pass a function using an arrow function or a function expression.
+Passing a function ensures the code runs after the delay, not immediately.
+
+🔹 Inline Callback Syntax
+Instead of defining a function separately, the callback can be written directly inside setTimeout().
+This makes the code shorter and easier to read for small tasks.
+
+🔹 Timers and Delays
+setTimeout() can be used inside loops to create timers.
+By increasing the delay step by step, actions can be executed at regular intervals.
+This technique is commonly used for countdowns, animations, and delayed messages.
+
+🔹 Key Points to Remember
+Always pass a function, not a function call.
+Time is measured in milliseconds.
+setTimeout() is asynchronous and non-blocking.
