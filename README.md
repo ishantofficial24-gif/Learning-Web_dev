@@ -329,3 +329,36 @@ Ceiling → rounds up to the nearest integer.
 Generates a random number between 0 and 1.
 Can be modified to generate random integers within a specific range.
 Random numbers are commonly used in games, simulations, and applications.
+
+
+📖 :::Chapter 10 — Function Writing Styles & Callback Functions:::
+
+This chapter explains the different ways to write functions in JavaScript and introduces the concept of callback functions.
+
+🔹 Function Declarations (Simple Function)
+Written using the function keyword.
+These functions are hoisted, meaning they can be called before their declaration in the code.
+Commonly used for simple and readable logic.
+
+🔹 Function Expressions
+Functions can be stored inside variables.
+Usually declared using const.
+These functions are not hoisted, so they must be defined before use.
+Useful when functions need to be treated as values.
+
+🔹 Arrow Functions
+A modern and concise way to write functions.
+Uses the => syntax.
+Improves readability and is widely used in modern JavaScript.
+
+✔ Single-line Arrow Functions
+Can be written without curly braces.
+The returned value is implicit.
+
+✔ No-Argument Arrow Functions
+Parentheses are used even when no parameters are required.
+
+🔹 Callback Functions
+A callback function is a function passed as an argument to another function.
+It allows one function to be executed inside another function.
+Callbacks are fundamental to asynchronous programming in JavaScript.
