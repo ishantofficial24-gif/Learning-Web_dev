@@ -419,3 +419,30 @@ All approaches work the same; the difference is only in readability and style.
 map() always returns a new array
 Best suited for transforming data
 Commonly used in functional programming
+
+
+📖 :::Chapter 12 — filter() in JavaScript:::
+
+This chapter explains the filter() method, which is used to select elements from an array based on a condition.
+
+🔹 What is filter()?
+filter() is an array method in JavaScript.
+It works on a true / false condition.
+Elements that satisfy the condition are included in the new array.
+Elements that do not satisfy the condition are excluded.
+
+🔹 How filter() Works
+filter() takes a callback function.
+The callback runs for every element in the array.
+If the callback returns true, the element is kept.
+If it returns false, the element is removed.
+
+🔹 Writing filter() Functions
+The condition can be written as a separate function.
+It can also be written using a short arrow function.
+Shorter syntax improves readability without changing behavior.
+
+🔹 Key Points
+filter() always returns a new array
+The original array remains unchanged
+Commonly used for selecting specific data (even numbers, valid users, etc.)
