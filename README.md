@@ -288,7 +288,7 @@ Syntax must use object[key] (not object.key).
 This loop is especially useful when working with all properties of an object.
 
 
-📖 :::Chapter 9 — Functions & Math Methods in JavaScript:::
+📖 :::Chapter 8 — Functions & Math Methods in JavaScript:::
 
 This chapter explains how functions work in JavaScript and introduces commonly used built-in mathematical operations.
 
@@ -331,7 +331,7 @@ Can be modified to generate random integers within a specific range.
 Random numbers are commonly used in games, simulations, and applications.
 
 
-📖 :::Chapter 10 — Function Writing Styles & Callback Functions:::
+📖 :::Chapter 9 — Function Writing Styles & Callback Functions:::
 
 This chapter explains the different ways to write functions in JavaScript and introduces the concept of callback functions.
 
@@ -393,3 +393,29 @@ This technique is commonly used for countdowns, animations, and delayed messages
 Always pass a function, not a function call.
 Time is measured in milliseconds.
 setTimeout() is asynchronous and non-blocking.
+
+
+📖 :::Chapter 11 — map() in JavaScript:::
+
+This chapter introduces the map() method, which is used to apply the same transformation to every element of an array.
+
+🔹 What is map()?
+map() is an array method in JavaScript.
+It creates a new array by applying a function to each element of the original array.
+The original array remains unchanged.
+
+🔹 How map() Works
+map() takes a callback function as its argument.
+The callback function runs once for every array element.
+Each returned value is stored in the new array.
+
+🔹 Ways to Use map()
+Using a separate function
+Using an inline function
+Using a short arrow function syntax
+All approaches work the same; the difference is only in readability and style.
+
+🔹 Key Points
+map() always returns a new array
+Best suited for transforming data
+Commonly used in functional programming
