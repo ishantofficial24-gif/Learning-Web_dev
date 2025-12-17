@@ -74,6 +74,35 @@ Attributes make links more functional and user-friendly.
 Understanding link syntax is essential for building websites.
 
 
+📖 :::HTML Chapter 4 — Images, GIFs & Audio:::
+
+This chapter explains how to add images, GIFs, and audio files to a webpage using HTML.
+
+🔹 Images & GIFs
+Images and GIFs are added using the <img> tag.
+Important Attributes:
+src → Specifies the path or URL of the image or GIF
+alt → Displays alternate text if the image fails to load
+height / width → Controls the size of the image (can also be done using CSS)
+
+🔹 Image as a Hyperlink
+Images can be made clickable by wrapping the <img> tag inside an <a> tag.
+Clicking the image redirects the user to another page or website.
+This technique is commonly used for banners, profile images, and buttons.
+
+🔹 Audio in HTML
+Audio files are added using the <audio> tag.
+Important Attributes:
+src → Specifies the audio file location
+controls → Displays play, pause, and volume controls
+
+Without controls, the audio will not be visible to the user.
+🔹 Additional Audio Features
+autoplay → Plays audio automatically when the page loads
+muted → Starts the audio in muted mode
+loop → Repeats the audio continuously
+
+
 
 
 
