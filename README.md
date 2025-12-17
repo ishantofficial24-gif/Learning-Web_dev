@@ -11,39 +11,25 @@ This project contains my practice files as I learn HTML, and later CSS & JavaScr
 📖 Chapter 1 — Introduction to HTML
 
 This chapter explains the basic structure of a webpage and introduces the most essential HTML tags.
-
 What’s covered in this chapter
-
 Meaning of <!DOCTYPE html>
-
 Basic structure
 
 <html>
-
 <head>
-
 <title>
-
 <body>
 
 Headings (h1 to h6)
-
 Closed tags (like <p>)
-
 Self-closing tags (like <br>)
-
 Horizontal rule (<hr>)
-
 This chapter helps build a strong foundation of how an HTML document is created.
 
 📖 Chapter 2 — Commonly Used HTML Tags
-
 This chapter focuses on useful formatting tags.
-
 Topics covered
-
 Importance of the <pre> tag for preserving spaces and formatting
-
 Common inline tags:
 
 No.	Tag Name	Syntax	Usage
@@ -59,6 +45,37 @@ No.	Tag Name	Syntax	Usage
 🔟	Superscript	<sup>text</sup>	Text above baseline (e.g., X<sup>2</sup>).
 1️⃣1️⃣	Subscript	<sub>text</sub>	Text below baseline (e.g., H<sub>2</sub>O).
 1️⃣2️⃣	Highlight	<mark>text</mark>	Highlights the text.
+
+
+
+📖 :::HTML Chapter 3 — Hyperlinks:::
+This chapter explains hyperlinks, which are used to navigate from one webpage to another or to open files and external websites.
+
+🔹 What is a Hyperlink?
+A hyperlink is a clickable element that takes the user to another webpage, website, or file.
+Hyperlinks are created using the <a> (anchor) tag.
+
+🔹 Important Attributes of <a> Tag
+✔ href
+Stands for Hyperlink Reference.
+Specifies the destination URL or file path.
+
+✔ target
+Controls where the link opens.
+_blank opens the link in a new tab or window.
+
+✔ title
+Displays a tooltip message when the mouse hovers over the link.
+Helps users understand the purpose of the link.
+
+🔹 Key Points
+Hyperlinks improve navigation and user experience.
+Attributes make links more functional and user-friendly.
+Understanding link syntax is essential for building websites.
+
+
+
+
 
 
 =================================================== JAVASCRIPT SECTION===================================================
