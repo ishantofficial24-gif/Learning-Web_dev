@@ -103,6 +103,39 @@ muted → Starts the audio in muted mode
 loop → Repeats the audio continuously
 
 
+📖 :::HTML Chapter 5 — Video:::
+
+This chapter explains how to add videos to a webpage using HTML.
+
+🔹 Adding Video in HTML
+Videos are added using the <video> tag.
+The <video> element works similarly to image and audio elements.
+
+🔹 Important Video Attributes
+src → Specifies the path or URL of the video file
+controls → Displays play, pause, volume, and other controls
+width / height → Controls the size of the video
+Using controls is recommended so users can easily interact with the video.
+
+🔹 Additional Video Features
+autoplay → Automatically plays the video when the page loads
+muted → Starts the video in muted mode
+loop → Repeats the video continuously
+
+🔹 Video as a Hyperlink
+A video can be made clickable by wrapping the <video> tag inside an <a> tag.
+Clicking the video redirects the user to another webpage or website.
+
+🔹 Using the <source> Tag
+The <source> tag can be used inside <video> to specify video files.
+This approach allows better format support and flexibility.
+
+🔹 Key Points
+Videos improve user engagement.
+Controls enhance usability.
+Videos can be styled further using CSS.
+
+
 
 
 
