@@ -136,6 +136,34 @@ Controls enhance usability.
 Videos can be styled further using CSS.
 
 
+📖 :::HTML Chapter 6 — Favicon:::
+
+This chapter explains how to add a favicon (website icon) to a webpage.
+
+🔹 What is a Favicon?
+A favicon is a small icon that appears in the browser tab, bookmarks, and history.
+It helps in branding and makes a website easily recognizable.
+
+🔹 Adding a Favicon
+Favicons are added inside the <head> section using the <link> tag.
+
+🔹 Important Attributes
+✔ rel="icon"
+
+Specifies that the linked file is the website’s icon.
+✔ type
+
+Defines the image format (commonly image/png or image/x-icon).
+✔ href
+
+Specifies the path or location of the favicon file.
+
+🔹 Key Points
+Favicons improve user experience and site identity.
+The image should be small and clear.
+The favicon loads automatically when the page is opened.
+
+
 
 
 
