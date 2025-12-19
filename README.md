@@ -164,6 +164,35 @@ The image should be small and clear.
 The favicon loads automatically when the page is opened.
 
 
+📖 HTML Chapter 7 — Div & Span
+
+This chapter explains the difference between <div> and <span>, two commonly used container elements in HTML.
+
+🔹 span — Inline Container
+
+span is an inline element.
+It occupies only the space required by its content.
+Commonly used for styling specific words or small parts of text.
+Does not start on a new line.
+
+🔹 div — Block Container
+div is a block-level element.
+It occupies the entire width available.
+Always starts on a new line.
+Used to group larger sections of content.
+
+🔹 Key Differences
+Feature          	span	           div
+Type            	Inline	          Block
+Space	        Content only	   Full width
+New Line	          No             Yes
+Usage	Small text styling	Layout & sections
+
+🔹 Note
+Basic styling was used only to visually show the difference.
+Actual styling and layout control will be done using CSS.
+
+
 
 
 
