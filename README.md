@@ -193,6 +193,38 @@ Basic styling was used only to visually show the difference.
 Actual styling and layout control will be done using CSS.
 
 
+📖 :::HTML Chapter 8 — Lists:::
+
+This chapter explains the different types of lists in HTML and how they are used to organize content.
+
+🔹 Types of Lists in HTML
+HTML supports three types of lists, each used for different purposes.
+
+1️⃣ Unordered List (<ul>)
+The order of items does not matter.
+Items are displayed using bullets.
+Each item is written using the <li> tag.
+Lists can be nested (a list inside another list).
+
+2️⃣ Ordered List (<ol>)
+The order of items matters.
+Items are displayed in a nmbered or ordered format.
+Each item uses the <li> tag.
+Commonly used for steps or rankings.
+
+3️⃣ Description List (<dl>)
+Used to define terms and their descriptions.
+Consists of:
+<dt> → term
+<dd> → description
+
+Useful for definitions, glossaries, and explanations.
+🔹 Key Points
+Lists improve readability and structure.
+Nested lists help organize related item.
+Lists are widely used in menus and content layouts.
+
+
 
 
 
