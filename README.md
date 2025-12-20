@@ -225,6 +225,40 @@ Nested lists help organize related item.
 Lists are widely used in menus and content layouts.
 
 
+📖 :::HTML Chapter 9 — Tables:::
+
+This chapter explains how to create and structure tables in HTML to display data in rows and columns.
+
+🔹 Basic Table Structure
+An HTML table is created using the <table> tag.
+Common Table Tags:
+tr → Table row
+th → Table heading (bold and centered by default)
+td → Table data (regular cells)
+
+🔹 Creating a Table
+The first row usually contains headings using <th>.
+Each new row is created using <tr>.
+Data inside rows is written using <td>.
+
+🔹 Table Headings in Rows
+Headings can be placed in the first row to describe each column.
+This is the most commonly used table layout.
+
+🔹 Table Headings in Columns
+Headings can also be placed in the first column.
+This style is useful when describing data row-wise instead of column-wise.
+
+🔹 Styling Tables
+The border attribute can be used to add borders (basic styling).
+Advanced styling and layout control are done using CSS.
+
+🔹 Key Points
+Tables are useful for structured data.
+Headings can be placed in rows or columns.
+Proper use of table tags improves readability.
+
+
 
 
 
