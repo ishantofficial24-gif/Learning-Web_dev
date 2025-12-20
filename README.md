@@ -259,6 +259,39 @@ Headings can be placed in rows or columns.
 Proper use of table tags improves readability.
 
 
+📖 :::HTML Chapter 10 — Buttons:::
+
+This chapter explains how to create buttons in HTML and how they are used on websites.
+
+🔹 Button Tag
+Buttons are created using the 'button' tag.
+Buttons are clickable elements used to perform actions.
+
+🔹 Basic Button
+A simple button displays text and can be clicked by the user.
+
+🔹 Button as a Hyperlink
+A button can be wrapped inside an 'a' tag.
+This allows the button to behave like a link and redirect the user to another page or website.
+
+🔹 Button Usage
+Buttons are commonly used for:
+Submitting forms
+Navigating pages
+Triggering actions
+
+🔹 JavaScript Interaction
+Buttons become powerful when used with JavaScript.
+JavaScript can be used to:
+Handle click events
+Perform calculations
+Change content dynamically
+
+🔹 Key Notes
+'button' is a semantic and accessible element.
+Styling and advanced behavior are usually handled using CSS and JavaScript.
+
+
 
 
 
