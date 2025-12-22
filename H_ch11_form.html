@@ -1,0 +1,112 @@
+<!--===================================================FORM=================================================================-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>FORM</title>
+</head>
+<body>
+    <form action="index.php" method="GET" enctype="multipart/form-data ">
+
+        <label for="username">username: </label>
+        <input type="text" id="username" required minlength="4" placeholder="write your name"><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"  placeholder="example@gmail.com"> <br>
+
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" placeholder="12345-7890" pattern="[0-9]{5}-[0-9]{5}"><br>
+
+        <label for="date">DOB:</label>
+        <input type="date" id="date"> <br>
+
+        <label for="number">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="100" value="1"> <br>
+
+        <label for="gender">Gender:</label>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender">
+        <label for="others">Others:</label>
+        <input type="radio" id="others" name="gender"><br>
+
+       <label for="Anime">Anime:</label>
+        <select id="Anime" name="anime">
+        <option value="Attack on Titans">Attack on Titans</option>
+        <option value="Vinland Saga">Vinland Saga</option>
+        <option value="Death Note">Death Note</option>
+        <option value="Solo Leveling">Solo Leveling</option>
+        </select><br>
+
+        <label for="terms">Are you agree all the terms and conditions</label>
+        <input type="checkbox"  id="terms"><br>
+
+        <label for="comment">Comment:</label>
+        <textarea  id="comment" rows="3" cols="30"></textarea> <br>
+
+        <label for="file">File:</label>
+        <input type="file" name="" id="file"><br>
+
+        <input type="reset"><br>
+
+        <input type="submit"><br>
+
+
+
+        
+    </form>
+    <h5>Label is used for define a text description for an input element in an HTML form.
+    It tells the user what information should be entered in a particular input field. </h5>
+    <h5>The for attribute connects the label to an input using the input’s id.</h5>
+   
+        <h3>Important attribute</h3>
+         <ul>
+        <li>Action : It is  an attribute . it is the address at which the from is submitted after filling.</li>
+        <li>Method : Type of the data (sensitive or insenitive)  </li> 
+        <li>encrypt : enctype is an attribute of the form tag that specifies how form data should be encoded before being sent to the server.</li>
+        <li>required : If we write 'required' attribute then it is mandatory to fill that section.</li>
+        <li>minlength : If we write minlength="" attribute in the text then it is mandatory to have equal or more than given no of characters.</li>
+        <li>maxlength : If we write maxlength="" attribute in the text then it is mandatory to have equal or less than given no of characters.</li>
+        <li>placeholder : The placeholder attribute is used inside form input fields to display a short hint or example text that tells the user what kind of data should be entered.</li>
+        <li>min/max : The min and max attributes are used in form input elements to define the minimum and maximum allowed values that a user can enter</li>
+        <li>value : The value attribute specifies the default data of an input field that is sent when the form is submitted.</li>
+        <li>name : The name attribute is used to identify an input field in an HTML form.
+                    It defines the key (variable name) that is sent to the server along with the input’s value when the form is submitted.</li>
+        <li>accept : The accept attribute is used with input type="file" to specify the types of files that the user is allowed to upload.</li>
+
+    </ul>
+    <h3>INPUT TYPE</h3>
+        <dl>
+            <dt>Text</dt>
+                <dd>Text is used to generate a text box in the form .</dd>
+            <dt>Password</dt>
+                <dd>This is used to generate a password box in the form.</dd>
+            <dt>Email</dt>
+                <dd>This is used to generate the Email box in the form </dd>
+            <dt>phone</dt>
+                <dd>It is used to allow users to enter their telephone or mobile number in a form.</dd>
+            <dt>Date</dt>
+                <dd>is used to allow users to select or enter a date (day, month, and year) through a date picker.</dd>
+            <dt>Number</dt>
+                <dd>This is used to generate the nmber box in the form. We can even edit the format of the number </dd>
+            <dt>Radio</dt>
+                <dd>Radio buttons are used to select only one option from a set of multiple choices in an HTML form.</dd>
+            <dt>select and option</dt>
+                <dd>The text written inside the option tag is displayed in the dropdown, while the value attribute is sent to the server.</dd>
+            <dt>checkbox</dt>
+                <dd>A checkbox is used to select one or more options in an HTML form.</dd>
+            <dt>textarea</dt>
+                <dd>A textarea in HTML is used to accept multi-line text input from the user, such as comments, feedback, or messages.</dd>
+            <dt>File</dt>
+                <dd>It is used to allow users to select and upload files (such as images, documents, or videos) from their device.</dd>
+            <dt>Input</dt>
+                <dd>It is used to clear all the input fields of a form and reset them to their default values.</dd>
+            <dt>Submit</dt>
+                <dd>It is used to send the form data to the server for processing.</dd>
+            </dl>
+</body>
+</html>

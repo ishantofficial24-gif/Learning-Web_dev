@@ -292,6 +292,53 @@ Change content dynamically
 Styling and advanced behavior are usually handled using CSS and JavaScript.
 
 
+📖 :::Chapter 11 — HTML Forms:::
+
+HTML Forms are used to collect user input and send data to a server for processing.
+
+🔹 Form
+A form is created using the 'form' element.
+It sends user data to a server file.
+Important attributes:
+action → address where data is sent
+method → GET or POST
+enctype → how data is encoded
+
+🔹 Label
+Label describes what data the user should enter.
+The for attribute connects the label to an input using its id.
+Improves clarity and accessibility.
+
+🔹 Common Input Types
+text → single-line text input
+password → hides typed text
+email → email input with validation
+tel → phone number input
+date → date picker
+number → numeric input with min / max
+radio → select only one option
+checkbox → select multiple options
+file → upload files
+submit → send form data
+reset → clear all inputs
+
+🔹 Select & Textarea
+select + option → dropdown menu
+textarea → multi-line text input (comments, feedback)
+
+🔹 Important Attributes
+required → makes input mandatory
+placeholder → hint text inside input
+min / max → restrict values
+minlength / maxlength → restrict text length
+value → default input value
+name → key sent to server
+accept → allowed file types
+
+
+
+
+
 
 
 
