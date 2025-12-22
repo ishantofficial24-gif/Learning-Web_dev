@@ -336,6 +336,33 @@ name → key sent to server
 accept → allowed file types
 
 
+📖:::Chapter 12 — Header and Footer:::
+
+HTML Header and Footer elements help structure a webpage in a clean and organized way.
+
+🔹 Header
+'header' represents the top section of a webpage.
+Used for:
+Website title
+Navigation
+Introductory content
+Everything written inside the header stays grouped together at the top.
+Styling is usually done using CSS.
+
+🔹 Main
+'main' contains the central content of the webpage.
+It holds the most important information.
+Optional but recommended for better structure and readability.
+
+🔹 Footer
+'footer' represents the bottom section of a webpage.
+Used for:
+Copyright information
+Contact details
+Extra links
+All footer content stays together at the bottom of the page.
+
+
 
 
 
