@@ -378,6 +378,20 @@ Colors can be applied to both text and backgrounds.
 Proper color combinations improve readability and UI appearance.
 
 
+📘 Chapter 2: Fonts in CSS
+🔹 Built-in Fonts
+
+CSS allows you to use system-available fonts directly.
+You can list multiple fonts so the browser uses the first available one as a fallback.
+This ensures better compatibility across different devices.
+
+🔹 Google Fonts
+
+Google Fonts provide modern and web-safe fonts that are not available by default.
+They are imported into the stylesheet and then applied like normal fonts.
+This helps in improving design consistency and readability.
+
+
 
 
 

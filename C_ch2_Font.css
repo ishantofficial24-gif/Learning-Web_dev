@@ -1,0 +1,15 @@
+/* ===============================
+   Built-in font for p5
+   =============================== */
+#p5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* ===============================
+   Google Font (Roboto) for p6
+   =============================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+#p6 {
+    font-family: 'Roboto', sans-serif;
+}
