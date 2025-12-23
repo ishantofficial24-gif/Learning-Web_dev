@@ -366,6 +366,21 @@ All footer content stays together at the bottom of the page.
 
 
 
+=================================================CSS portion ===========================================================
+
+🎨 CSS Chapter 1 — Colors
+
+CSS supports multiple color formats for flexibility in design.
+Color names are simple but limited.
+RGB and Hex are widely used for precise color control.
+HSL is useful for adjusting shades, brightness, and intensity easily.
+Colors can be applied to both text and backgrounds.
+Proper color combinations improve readability and UI appearance.
+
+
+
+
+
 
 
 
