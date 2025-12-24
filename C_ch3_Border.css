@@ -1,0 +1,92 @@
+/* =========================================================
+   Chapter 3 – CSS Borders
+   ========================================================= */
+
+/* HTML USED:
+<div id="div3">
+    <h1>Chapter 3 Borders</h1>
+    <p id="p7">...</p>
+    <p id="p8">...</p>
+</div>
+*/
+
+/* ---------------------------------------------------------
+   THEORY:
+   A border in CSS is a line drawn around an HTML element.
+   It is used to separate content, improve layout structure,
+   and enhance visual appearance.
+---------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------
+   SOLID BORDER (Paragraph p7)
+---------------------------------------------------------- */
+#p7 {
+    border: 3px outset black;
+}
+
+/* ---------------------------------------------------------
+   GROOVE BORDER (Paragraph p8)
+---------------------------------------------------------- */
+#p8 {
+    border: 4px dotted blue;
+}
+
+/* ---------------------------------------------------------
+   OUTSET BORDER (Div div3)
+---------------------------------------------------------- */
+#div3 {
+    border: 5px outset red;
+    padding: 15px;
+   background-color: rgb(32, 34, 37);
+   color: aliceblue;
+}
+
+/* ---------------------------------------------------------
+   BORDER PROPERTIES – THEORY
+---------------------------------------------------------- */
+
+/* border-style:
+   Defines the type of border (solid, dotted, dashed, etc.)
+    ---------------------------------------------------------
+   BORDER STYLES (TYPES) – THEORY
+   solid  : A single continuous straight line
+   dotted : Border made of dots
+   dashed : Border made of short lines
+   double : Two parallel solid lines
+   groove : Gives a 3D carved-in effect
+   ridge  : Opposite of groove, looks raised
+   inset  : Border looks pressed inside
+   outset : Border looks raised outside
+   none   : No border is displayed
+   hidden : Same as none (mostly used in tables)
+---------------------------------------------------------- 
+
+*/
+
+/* border-width:
+   Defines the thickness of the border.
+   Values can be thin, medium, thick, or px.
+*/
+
+/* border-color:
+   Defines the color of the border.
+*/
+
+/* border-radius:
+   Used to create rounded corners for borders.
+*/
+
+/* border-top / border-bottom / border-left / border-right:
+   Used to apply border to individual sides of an element.
+*/
+
+/* border (shorthand):
+   Used to define width, style, and color in one line.
+   Example: border: 2px solid green;
+*/
+
+/* ---------------------------------------------------------
+   IMPORTANT NOTE:
+   Border lies between padding and margin in the CSS box model.
+---------------------------------------------------------- */

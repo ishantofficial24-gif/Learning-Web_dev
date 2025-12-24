@@ -368,7 +368,7 @@ All footer content stays together at the bottom of the page.
 
 =================================================CSS portion ===========================================================
 
-🎨 CSS Chapter 1 — Colors
+🎨 :::CSS Chapter 1 — Colors:::
 
 CSS supports multiple color formats for flexibility in design.
 Color names are simple but limited.
@@ -378,7 +378,7 @@ Colors can be applied to both text and backgrounds.
 Proper color combinations improve readability and UI appearance.
 
 
-📘 Chapter 2: Fonts in CSS
+📘 :::Chapter 2: Fonts in CSS:::
 🔹 Built-in Fonts
 
 CSS allows you to use system-available fonts directly.
@@ -390,6 +390,46 @@ This ensures better compatibility across different devices.
 Google Fonts provide modern and web-safe fonts that are not available by default.
 They are imported into the stylesheet and then applied like normal fonts.
 This helps in improving design consistency and readability.
+
+
+📘 :::Chapter 3: Borders in CSS:::
+🔹 What are Borders?
+
+Borders in CSS are used to draw lines around elements.
+They help in separating content, improving layout clarity, and enhancing visual structure.
+
+🔹 Where Borders Apply
+Borders can be applied to:
+Text elements (like paragraphs)
+Containers (like divs)
+Any visible HTML element
+They wrap around the content and padding of an element.
+
+🔹 Border Styles
+CSS provides multiple border styles to create different visual effects:
+Solid → simple continuous line
+Dotted / Dashed → decorative borders
+Double → two parallel lines
+Groove / Ridge → 3D carved or raised effects
+Inset / Outset → pressed-in or raised look
+Each style changes the appearance without changing the content.
+
+🔹 Border Properties
+Borders can be customized using:
+Width → thickness of the border
+Color → border color
+Style → type of border
+Radius → rounded corners
+Individual sides → apply border only to top, bottom, left, or right
+A shorthand property allows setting all border values at once.
+
+🔹 Border in Box Model
+In the CSS box model:
+Content → inside
+Padding → space around content
+Border → surrounds padding
+Margin → outer space
+Understanding this order helps in better layout design.
 
 
 
